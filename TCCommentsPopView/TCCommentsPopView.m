@@ -1,10 +1,3 @@
-//
-//  CommentsPopView.m
-//  Douyin
-//
-//  Created by Tang TianCheng
-//  Copyright © 2018年 Qiao Shi. All rights reserved.
-//
 
 #import "TCCommentsPopView.h"
 
