@@ -1,36 +1,36 @@
-////
-////  CommentsPopView.m
-////  Douyin
-////
-////  Created by Tang TianCheng 
-////  Copyright © 2018年 Qiao Shi. All rights reserved.
-////
 //
-//#import "TCCommentsPopView.h"
+//  CommentsPopView.m
+//  Douyin
 //
-//#define RGBA(r, g, b,a)     [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//  Created by Tang TianCheng
+//  Copyright © 2018年 Qiao Shi. All rights reserved.
 //
-//
-//
-//@interface TCCommentsPopView () <UITableViewDelegate,UITableViewDataSource, UIGestureRecognizerDelegate>
-//
-//@property (nonatomic, strong) UIView                           *container;
-//@property (nonatomic, strong) UIButton *closeBtn;
-//
-//@property (nonatomic, strong) UIPanGestureRecognizer *panGestureRecognizer;
-//@property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
-////当前正在拖拽的是否是tableView
-//@property (nonatomic, assign) BOOL isDragScrollView;
-//@property (nonatomic, strong) UIScrollView *scrollerView;
-////向下拖拽最后时刻的位移
-//@property (nonatomic, assign) CGFloat lastDrapDistance;
-//
-//
-//@end
-//
-//
-//@implementation TCCommentsPopView
-//
+
+#import "TCCommentsPopView.h"
+
+#define RGBA(r, g, b,a)     [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+
+@interface TCCommentsPopView () <UITableViewDelegate,UITableViewDataSource, UIGestureRecognizerDelegate>
+
+@property (nonatomic, strong) UIView                           *container;
+@property (nonatomic, strong) UIButton *closeBtn;
+
+@property (nonatomic, strong) UIPanGestureRecognizer *panGestureRecognizer;
+@property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
+//当前正在拖拽的是否是tableView
+@property (nonatomic, assign) BOOL isDragScrollView;
+@property (nonatomic, strong) UIScrollView *scrollerView;
+//向下拖拽最后时刻的位移
+@property (nonatomic, assign) CGFloat lastDrapDistance;
+
+
+@end
+
+
+@implementation TCCommentsPopView
+
 //+ (instancetype)commentsPopViewWithFrame:(CGRect)frame commentBackView:(UIView *)commentBackView {
 //    TCCommentsPopView *view = [[TCCommentsPopView alloc] initWithFrame:frame commentBackView:commentBackView];
 //    return view;
@@ -221,15 +221,15 @@
 //    [[NSNotificationCenter defaultCenter]removeObserver:self];
 //
 //}
-//
-//
-//@end
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+@end
+
+
+
+
+
+
+
+
+
