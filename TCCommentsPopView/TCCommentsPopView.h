@@ -1,5 +1,5 @@
-// //
-////  CommentsPopView.h
+ //
+//  CommentsPopView.h
 ////  Douyin
 ////
 ////  Created by Tang TianCheng 
