@@ -6,4 +6,7 @@
 @interface MBProgressHUD:UIView
 
 
++ (BOOL)hideHUDForView:(UIView *)view animated:(BOOL)animated;
++ (void)aa;
+
 @end
