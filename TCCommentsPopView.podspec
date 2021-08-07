@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TCCommentsPopView"
-  spec.version      = "0.0.9"
+  spec.version      = "0.1.0"
   spec.summary      = "TCCommentsPopView."
   spec.description  = <<-DESC
     TCCommentsPopView.TCCommentsPopView.TCCommentsPopView.TCCommentsPopView.
