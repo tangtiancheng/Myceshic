@@ -2,6 +2,12 @@
 ddddd
 d1d1d1d1
 Klklklk
+<<<<<<< HEAD
 刚发的,jgls
 few
 rjewl
+=======
+1234
+few
+hgfhf
+>>>>>>> a0788a7358dedf58030c2af96442c8aa9ebaa480
